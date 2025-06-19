@@ -5,17 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CineTech</title>
   <!-- CSS chính -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{{ asset('TC/style.css') }}">
   <!-- Font Awesome cho icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
   <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">
-        <img src="images/logo.png" alt="CineTech Logo">
+        <img src="{{ asset('TC/images/logo.png') }}" alt="CineTech Logo">
       </div>
       <div class="search-bar">
         <input type="text" placeholder="Tìm kiếm phim........">
@@ -43,55 +42,54 @@
   <div class="carousel">
     <i class="fas fa-chevron-left arrow arrow-left"></i>
     <div class="carousel-inner">
-      <img src="images/anh1.webp" alt="Banner phim">
+      <img src="{{ asset('TC/images/anh1.webp') }}" alt="Banner phim">
     </div>
     <i class="fas fa-chevron-right arrow arrow-right"></i>
   </div>
 
   <main class="container">
-
     <!-- PHIM ĐANG CHIẾU -->
     <section class="movies-section">
       <h2>PHIM ĐANG CHIẾU</h2>
       <div class="movie-wrapper">
         <div class="movie-list">
           <div class="movie-card">
-            <img src="images/trangquynh.jpg" alt="Trạng quỳnh">
+            <img src="{{ asset('TC/images/trangquynh.jpg') }}" alt="Trạng quỳnh">
             <h3 class="movie-title">Trạng quỳnh</h3>
             <p class="movie-info">Thời lượng: 131p</p>
             <p class="movie-info">Ngày khởi chiếu: 25/01/2025</p>
             <button class="btn-book">ĐẶT VÉ</button>
           </div>
           <div class="movie-card">
-            <img src="images/bogia.jpg" alt="Bố già">
+            <img src="{{ asset('TC/images/bogia.jpg') }}" alt="Bố già">
             <h3 class="movie-title">Bố già</h3>
             <p class="movie-info">Thời lượng: 131p</p>
             <p class="movie-info">Ngày khởi chiếu: 25/05/2025</p>
             <button class="btn-book">ĐẶT VÉ</button>
           </div>
           <div class="movie-card">
-            <img src="images/songlang.png" alt="Song lang">
+            <img src="{{ asset('TC/images/songlang.png') }}" alt="Song lang">
             <h3 class="movie-title">Song lang</h3>
             <p class="movie-info">Thời lượng: 172p</p>
             <p class="movie-info">Ngày khởi chiếu: 14/01/2025</p>
             <button class="btn-book">ĐẶT VÉ</button>
           </div>
           <div class="movie-card">
-            <img src="images/chietyeu.jpg" alt="Chiết yêu">
+            <img src="{{ asset('TC/images/chietyeu.jpg') }}" alt="Chiết yêu">
             <h3 class="movie-title">Chiết yêu</h3>
             <p class="movie-info">Thời lượng: 111p</p>
             <p class="movie-info">Ngày khởi chiếu: 21/04/2025</p>
             <button class="btn-book">ĐẶT VÉ</button>
           </div>
           <div class="movie-card">
-            <img src="images/nvcc.jpg" alt="Người vợ cuối cùng">
+            <img src="{{ asset('TC/images/nvcc.jpg') }}" alt="Người vợ cuối cùng">
             <h3 class="movie-title">Người vợ cuối cùng</h3>
             <p class="movie-info">Thời lượng: 121p</p>
             <p class="movie-info">Ngày khởi chiếu: 31/05/2025</p>
             <button class="btn-book">ĐẶT VÉ</button>
           </div>
           <div class="movie-card">
-            <img src="images/chuyentinh.jpg" alt="Chuyện tình ngày xưa">
+            <img src="{{ asset('TC/images/chuyentinh.jpg') }}" alt="Chuyện tình ngày xưa">
             <h3 class="movie-title">Chuyện tình ngày xưa</h3>
             <p class="movie-info">Thời lượng: 117p</p>
             <p class="movie-info">Ngày khởi chiếu: 29/03/2025</p>
@@ -102,43 +100,43 @@
       </div>
     </section>
 
-    <!-- PHIM SẮP CHIẾU (không có nút đặt vé) -->
+    <!-- PHIM SẮP CHIẾU -->
     <section class="movies-section">
       <h2>PHIM SẮP CHIẾU</h2>
       <div class="movie-wrapper">
         <div class="movie-list">
           <div class="movie-card">
-            <img src="images/lio.jpeg" alt="Lilo và Stitch">
+            <img src="{{ asset('TC/images/lio.jpeg') }}" alt="Lilo và Stitch">
             <h3 class="movie-title">Lilo và Stitch</h3>
             <p class="movie-info">Thời lượng: 131p</p>
             <p class="movie-info">Ngày khởi chiếu: 25/09/2025</p>
           </div>
           <div class="movie-card">
-            <img src="images/bklr.jpg" alt="Bí kíp luyện rồng">
+            <img src="{{ asset('TC/images/bklr.jpg') }}" alt="Bí kíp luyện rồng">
             <h3 class="movie-title">Bí kíp luyện rồng</h3>
             <p class="movie-info">Thời lượng: 125p</p>
             <p class="movie-info">Ngày khởi chiếu: 13/06/2025</p>
           </div>
           <div class="movie-card">
-            <img src="images/thamtu.jpg" alt="Thám tử kiên">
+            <img src="{{ asset('TC/images/thamtu.jpg') }}" alt="Thám tử kiên">
             <h3 class="movie-title">Thám tử kiên</h3>
             <p class="movie-info">Thời lượng: 162p</p>
             <p class="movie-info">Ngày khởi chiếu: 15/10/2025</p>
           </div>
           <div class="movie-card">
-            <img src="images/quycau.jpg" alt="Quỷ cẩu">
+            <img src="{{ asset('TC/images/quycau.jpg') }}" alt="Quỷ cẩu">
             <h3 class="movie-title">Quỷ cẩu</h3>
             <p class="movie-info">Thời lượng: 123p</p>
             <p class="movie-info">Ngày khởi chiếu: 31/10/2025</p>
           </div>
           <div class="movie-card">
-            <img src="images/snow.jpg" alt="Snow White">
+            <img src="{{ asset('TC/images/snow.jpg') }}" alt="Snow White">
             <h3 class="movie-title">Snow White</h3>
             <p class="movie-info">Thời lượng: 125p</p>
             <p class="movie-info">Ngày khởi chiếu: 09/09/2025</p>
           </div>
           <div class="movie-card">
-            <img src="images/emma.jpg" alt="Emma">
+            <img src="{{ asset('TC/images/emma.jpg') }}" alt="Emma">
             <h3 class="movie-title">Emma</h3>
             <p class="movie-info">Thời lượng: 130p</p>
             <p class="movie-info">Ngày khởi chiếu: 27/11/2025</p>
@@ -147,7 +145,6 @@
         <i class="fas fa-chevron-right section-arrow section-arrow-right"></i>
       </div>
     </section>
-
   </main>
 
   <!-- POPUP LỊCH CHIẾU -->
@@ -198,8 +195,7 @@
     </div>
   </div>
   
-
   <!-- JS mở/đóng popup -->
-  <script src="script.js"></script>
+  <script src="{{ asset('TC/script.js') }}"></script>
 </body>
 </html>

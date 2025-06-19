@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string("description");
             $table->string("status");
             $table->string("poster");
-            $table->string('poster_original_name')->nullable()->after('poster');
+            $table->string('poster_original_name')->nullable();
             $table->timestamps();
             $table->softDeletes();
         }); 
