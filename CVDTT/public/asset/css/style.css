@@ -1,0 +1,104 @@
+
+    .card-phim {
+        background: #fff;
+        border-radius: 1.5rem;
+        box-shadow: 0 4px 32px 0 rgba(0,0,0,0.08), 0 1.5px 6px 0 rgba(0,0,0,0.06);
+        padding: 2rem 2.5rem;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .card-phim .table thead th {
+        background: #f5f7fa;
+        color: #333;
+        font-weight: 600;
+        border-top: none;
+        border-bottom: 2px solid #e3e8ee;
+    }
+    .card-phim .table tbody tr {
+        transition: box-shadow 0.15s;
+    }
+    .card-phim .table tbody tr:hover {
+        box-shadow: 0 0 12px 0 rgba(60,115,245,0.07);
+        background: #f6faff;
+    }
+    .btn-add {
+        background: linear-gradient(90deg,#2c89f5 0%,#75d0fc 100%);
+        font-weight: 600;
+        border-radius: 1rem;
+        transition: background 0.2s;
+        box-shadow: 0 2px 12px rgba(60,115,245,0.10);
+    }
+    .btn-add:hover {
+        background: linear-gradient(90deg,#1d6ddc 0%,#60b8e7 100%);
+        transform: translateY(-2px) scale(1.03);
+    }
+    .btn-warning, .btn-danger .btn-info{
+        border-radius: 0.75rem;
+    }
+    .img-thumb {
+        border-radius: 1rem;
+        border: 2px solid #e5e9f2;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        width: 54px;
+        height: 68px;
+        background: #f5f7fa;
+    }
+    .cut_text {
+        max-width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .alert-info {
+        border-radius: 1rem;
+    }
+    #toast {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    .message {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        border-radius: 0.8rem;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+        padding: 0.6rem 1rem;
+        min-width: 220px;
+        border-left: 4px solid #47d864;
+        animation: slideIn 0.6s;
+    }
+    .message__icon {
+        margin-right: 0.6rem;
+    }
+    .message__icon svg {
+        width: 18px;
+        height: 18px;
+    }
+    .message__title {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+    }
+    .message__close svg {
+        width: 16px;
+        height: 16px;
+    }
+    .message__close {
+        margin-left: auto;
+        cursor: pointer;
+    }
+    @keyframes slideIn {
+        from { transform: translateX(60px); opacity: 0;}
+        to { transform: translateX(0); opacity: 1;}
+    }
+    .modal-content {
+        border-radius: 1.25rem;
+        box-shadow: 0 4px 24px 0 rgba(0,0,0,0.13);
+    }
+    .table td, .table th {
+        vertical-align: middle !important;
+    }

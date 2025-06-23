@@ -1,0 +1,202 @@
+﻿/* ================= MEDIA SCREEN ================= */
+/* ================= X-Small Devices (Portrait Phones) ================= */
+@media (max-width: 575.98px) {
+
+    /* Form login */
+
+    .carousel-indicators {
+        left: -24%;
+    }
+
+
+}
+
+/* ================= Small Devices (Landscape Phones) ================= */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* ================= Medium Devices (Tablets) ================= */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .space_section {
+        padding: 60px 0;
+    }
+
+    .space-bottom {
+        padding-bottom: 38px;
+    }
+
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 27px;
+        margin-bottom: 15px;
+        line-height: 1.25;
+    }
+
+    h3,
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+
+
+    /* Form login */
+    .margin-top-form {
+        margin-top: 9rem;
+    }
+
+    .img-bg {
+        height: 100vh;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .w-lg-75 {
+        width: 75% !important;
+    }
+
+    .w-lg-50 {
+        width: 50% !important;
+    }
+
+    .w-lg-25 {
+        width: 25% !important;
+    }
+
+    .fs-lg-2 {
+        font-size: 24px !important;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .w-md-75 {
+        width: 75% !important;
+    }
+
+    .w-md-50 {
+        width: 50% !important;
+    }
+
+    .w-md-25 {
+        width: 25% !important;
+    }
+
+    .fs-md-2 {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .w-sm-75 {
+        width: 75% !important;
+    }
+
+    .w-sm-50 {
+        width: 50% !important;
+    }
+
+    .w-sm-25 {
+        width: 25% !important;
+    }
+
+    .fs-sm-2 {
+        font-size: 16px !important;
+    }
+
+
+}
+
+/* ================= Large Devices (Desktop) ================= */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .space_section {
+        padding: 70px 0;
+    }
+
+    .space-bottom {
+        padding-bottom: 38px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3,
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    h6,
+    p {
+        font-size: 14px;
+    }
+
+    .img-bg {
+        height: 100vh;
+    }
+
+    .margin-top-form {
+        margin-top: 9rem;
+    }
+}
+
+/* ================= X-Large (Large Desktop) ================= */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* ================= XX-Large (Huge Desktop) ================= */
+@media (min-width: 1400px) {}
+
+/* ================= Options Devices (All Devices) ================= */
+@media (max-width: 767.98px) {
+    .space_section {
+        padding: 50px 0;
+    }
+
+
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+
+    h3,
+    h4 {
+        font-size: 21px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    h6,
+    p {
+        font-size: 14px;
+    }
+
+    .space-bottom {
+        padding-bottom: 34px;
+    }
+
+    /* Form login */
+    .margin-top-form {
+        margin-top: 9rem;
+    }
+
+    .img-bg {
+        height: 100vh;
+    }
+
+}
